@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+.ini-header{
+	background-color: #45BD6F;
+	width: 100%;
+	padding : 35px 0;
+	z-index:5;
+	position: relative;
+    height: 115px;
+    box-sizing: border-box;
+	
+}
+
+.container {
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+
+.ini-header>.container {
+    width: 90%;
+}
+
+.ini-header>.container {
+	left:820px;
+    margin: 0 auto;
+    width: 85%;
+    justify-content: space-between;
+    width: 90%;
+}
+.card-img-top{
+	border-radius: 20px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1120px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cols {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -.75%;
+    margin-right: -.75%;
+}
+
+.button.has-shadow {
+    box-shadow: 3px 3px 5px 0 rgba(0,0,0,.1);
+}
+
+.button.sm {
+    padding: 13.5px 20px;
+    font-size: 14px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.button.light {
+    background-color: #fff;
+    color: #4a4a4a;
+    box-shadow: none;
+}
+
+.button {
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px 60px;
+    min-width: 120px;
+    color: #fff;
+    background-color: #2abb9b;
+    font-size: 16px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 3px 5px 0 rgba(42,187,155,.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    max-width: 340px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+.header-acciones .button{
+    margin-left: 10px;
+}
+
